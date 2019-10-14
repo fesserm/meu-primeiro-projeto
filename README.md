@@ -1,2 +1,2 @@
 # meu-primeiro-projeto
-Meu primeiro Spring Boot
+Meu primeiro projeto Spring Boot
