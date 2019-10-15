@@ -1,3 +1,5 @@
+before_install:
+  - chmod +x mvnw
 dist: trusty
 language: java
 jdk: oraclejdk8
