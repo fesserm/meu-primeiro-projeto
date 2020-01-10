@@ -1,4 +1,4 @@
-package com.kazale.entities;
+package com.kazale.api.entities;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -19,7 +19,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
-import com.kazale.enums.PerfilEnum;
+import com.kazale.api.enums.PerfilEnum;
 
 @Entity
 @Table(name = "funcionario")

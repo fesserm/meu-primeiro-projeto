@@ -1,4 +1,4 @@
-package com.kazale.entities;
+package com.kazale.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.kazale.enums.TipoEnum;
+import com.kazale.api.enums.TipoEnum;
 
 @Entity
 @Table(name = "lancamento")
@@ -44,8 +44,8 @@ public class Lancamento implements Serializable{
 	@Column(name = "data_atualizacao", nullable = false)
 	private Date dataAtualizacao;
 	
-	@Enumerated(EnumType.STRING) @Column(name = "data_criacao", nullable = false)
-	private TipoEnum tipo;
+//	@Enumerated(EnumType.STRING) @Column(name = "data_criacao", nullable = false)
+//	private TipoEnum tipo;
 	
 	@ManyToOne(fetch = FetchType.EAGER)
 	private Funcionario funcionario;
@@ -101,13 +101,13 @@ public class Lancamento implements Serializable{
 		this.dataAtualizacao = dataAtualizacao;
 	}
 
-	public TipoEnum getTipo() {
-		return tipo;
-	}
-
-	public void setTipo(TipoEnum tipo) {
-		this.tipo = tipo;
-	}
+//	public TipoEnum getTipo() {
+//		return tipo;
+//	}
+//
+//	public void setTipo(TipoEnum tipo) {
+//		this.tipo = tipo;
+//	}
 
 	public Funcionario getFuncionario() {
 		return funcionario;
@@ -134,12 +134,12 @@ public class Lancamento implements Serializable{
 		dataAtualizacao = atual;
 	}
 
-	@Override
-	public String toString() {
-		return "Lancamento [Id=" + Id + ", data=" + data + ", descricao=" + descricao + ", localizacao=" + localizacao
-				+ ", dataCriacao=" + dataCriacao + ", dataAtualizacao=" + dataAtualizacao + ", tipo=" + tipo
-				+ ", funcionario=" + funcionario + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Lancamento [Id=" + Id + ", data=" + data + ", descricao=" + descricao + ", localizacao=" + localizacao
+//				+ ", dataCriacao=" + dataCriacao + ", dataAtualizacao=" + dataAtualizacao + ", tipo=" + tipo
+//				+ ", funcionario=" + funcionario + "]";
+//	}
 	
 	
 

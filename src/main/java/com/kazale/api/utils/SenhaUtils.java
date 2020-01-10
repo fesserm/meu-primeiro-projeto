@@ -1,4 +1,4 @@
-package com.kazale.utils;
+package com.kazale.api.utils;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

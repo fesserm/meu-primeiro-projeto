@@ -12,9 +12,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.kazale.entities.Empresa;
-import com.kazale.repositories.EmpresaRepository;
-import com.kazale.utils.SenhaUtils;
+import com.kazale.api.entities.Empresa;
+import com.kazale.api.repositories.EmpresaRepository;
+import com.kazale.api.utils.SenhaUtils;
 
 @SpringBootApplication
 public class MeuPrimeiroProjetoApplication {

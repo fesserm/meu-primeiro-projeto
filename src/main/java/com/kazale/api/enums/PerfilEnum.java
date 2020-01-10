@@ -1,4 +1,4 @@
-package com.kazale.enums;
+package com.kazale.api.enums;
 
 public enum PerfilEnum {
 	
