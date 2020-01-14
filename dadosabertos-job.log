@@ -1,0 +1,1209 @@
+2020-01-14 07:24:19.202  WARN 12280 --- [parlamentar-hikari-pool housekeeper] com.zaxxer.hikari.pool.HikariPool        : parlamentar-hikari-pool - Thread starvation or clock leap detected (housekeeper delta=13h54m51s912ms183µs723ns).
+2020-01-14 07:24:28.747  INFO 12280 --- [quartzScheduler_Worker-5] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputados, nomeBaseArquivo=deputados, nome=deputados, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.749  INFO 12280 --- [quartzScheduler_Worker-6] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputadosCompleto, nomeBaseArquivo=deputadosCompleto, nome=deputadosCompleto, grupo=deputados, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.761  INFO 12280 --- [quartzScheduler_Worker-7] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 13 0 * * ?, diretorio=/tmp/arquivos/eventos, nomeBaseArquivo=eventos, nome=eventos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.766  INFO 12280 --- [quartzScheduler_Worker-7] com.zaxxer.hikari.HikariDataSource       : sileg-hikari-pool - Starting...
+2020-01-14 07:24:28.767  INFO 12280 --- [quartzScheduler_Worker-9] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 17 0 * * ?, diretorio=/tmp/arquivos/eventosPresencaDeputados, nomeBaseArquivo=eventosPresencaDeputados, nome=presencaDeputados, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.767  INFO 12280 --- [quartzScheduler_Worker-8] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 15 0 * * ?, diretorio=/tmp/arquivos/eventosOrgaos, nomeBaseArquivo=eventosOrgaos, nome=eventosOrgaos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.770  INFO 12280 --- [quartzScheduler_Worker-10] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/eventosRequerimentos, nomeBaseArquivo=eventosRequerimentos, nome=requerimentos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.772  INFO 12280 --- [quartzScheduler_Worker-1] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentes, nomeBaseArquivo=frentes, nome=frentes, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.773  INFO 12280 --- [quartzScheduler_Worker-2] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentesDeputados, nomeBaseArquivo=frentesDeputados, nome=membros, grupo=frentes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.775  INFO 12280 --- [quartzScheduler_Worker-3] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 12 0 * * ?, diretorio=/tmp/arquivos/legislaturas, nomeBaseArquivo=legislaturas, nome=legislaturas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:28.778  INFO 12280 --- [quartzScheduler_Worker-4] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/partidos, nomeBaseArquivo=partidos, nome=partidos, grupo=null, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:29.491  INFO 12280 --- [quartzScheduler_Worker-7] com.zaxxer.hikari.HikariDataSource       : sileg-hikari-pool - Start completed.
+2020-01-14 07:24:30.039  INFO 12280 --- [quartzScheduler_Worker-6] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2020-01-14 07:24:30.512 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 12 0 * * ?, diretorio=/tmp/arquivos/legislaturas, nomeBaseArquivo=legislaturas, nome=legislaturas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:30.758 ERROR 12280 --- [quartzScheduler_Worker-1] b.l.c.d.j.f.RepositorioDeFrentesJDBC     : Um erro aconteceu 
+
+org.springframework.dao.PermissionDeniedDataAccessException: PreparedStatementCallback; SQL [select DISTINCT
+	 f.id_frente AS idFrente
+	,f.cargo
+	,f.assunto AS titulo
+	,f.num_legislatura AS idLegislatura
+	,f.telefone
+	,f.idDocumento
+	,f.dataCriacao
+	,f.situacao
+	,f.autor AS coordenador
+	,f.ide_cadastro AS id
+	,f.nom_parlamentar AS nome
+	,f.siglaUf
+	,pp.sig_partido_politico siglaPartido
+	,pp.ide_partido_politico AS idPartido
+FROM (
+select distinct
+	f.id_frente
+	,f.DATA_PUBLICACAO AS dataCriacao
+	,f.assunto
+	,f.idDocumentoIntegra as idDocumento
+	,f.[posição] AS situacao
+	,f.autor
+	,f.telefone
+	,f.[número da legislatura] num_legislatura
+	,a.[confere assinatura] confere_assinatura
+	,a.[ORDEM DA ASSINATURA] ordem_assinatura
+	,p.ide_cadastro
+	,pl.ide_pessoa_legislatura
+	,pl.nom_parlamentar
+	,pl.sig_uf_eleito AS siglaUf
+	,pl.ide_partido_politico_atual
+	,IIF(f.autor like pl.nom_parlamentar OR (f.autor NOT LIKE pl.nom_parlamentar AND  f.autor like pl.nom_parlamentar + '%' COLLATE Latin1_General_CI_AS), 14, 1004) AS cargo
+from SqlDessgm.dbo.[Frente Parlamentar] f
+left join SqlDessgm.dbo.FrenteParlamentarConferência fc on f.ID_FRENTE = fc.ID_FRENTE
+left join SqlDessgm.dbo.Apoiamento a on a.[ID CONFERêNCIA] = fc.[ID CONFERêNCIA] 
+left join pessoa_legislatura pl on pl.ide_mandato_deputado_SGM = a.[ID DEPUTADO]
+left join pessoa p on p.ide_pessoa = pl.ide_pessoa
+where 0=0
+	and f.DATA_PUBLICACAO IS NOT NULL
+) f
+LEFT JOIN Partido_Politico pp ON pp.ide_partido_politico = f.ide_partido_politico_atual
+ORDER BY dataCriacao desc]; A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:250) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1402) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:620) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.frentes.RepositorioDeFrentesJDBC.buscaFrentesPorAnos(RepositorioDeFrentesJDBC.java:86) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.frentes.ServicoDeFrentes.execute(ServicoDeFrentes.java:32) [classes/:na]
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) [classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.0.jar:na]
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:331) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:666) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:605) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 16 common frames omitted
+
+2020-01-14 07:24:30.759 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentes, nomeBaseArquivo=frentes, nome=frentes, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:30.791 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/partidos, nomeBaseArquivo=partidos, nome=partidos, grupo=null, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:30.772 ERROR 12280 --- [quartzScheduler_Worker-6] b.l.c.d.j.d.RepositorioDeDeputadosJDBC   : Um erro aconteceu 
+
+org.springframework.dao.PermissionDeniedDataAccessException: PreparedStatementCallback; SQL [ SELECT 
+ pl.num_legislatura as legislatura, 
+ p.ide_cadastro as id, 
+ p.nom_civil as nomeCivil, 
+ p.num_cpf as cpf, 
+ p.cod_sexo as sexo, 
+ eep.tex_endereco_eletronico as urlWebsite,  
+ p.dat_nascimento as dataNascimento, 
+ p.sig_UF_naturalidade as ufNascimento, 
+ om.dat_ocorrencia_mandato as dataFalecimento, 
+ vlc.NOM_LOCALIDADE as municipioNascimento, 
+ vgi.nom_grau_instrucao escolaridade,  
+ pl.nom_parlamentar nome, 
+ pp.sig_partido_politico siglaPartido, 
+ sig_uf_eleito siglaUF, 
+ pp.ide_partido_politico uriPartido, 
+ pl.num_legislatura idLegislatura, 
+ om2.dat_ocorrencia_mandato data, 
+ smpl.nom_situacao_mandato_pessoa_legislatura situacao, 
+ nom_condicao_pessoa_legislatura condicaoEleitoral, 
+ om2.obs_ocorrencia_mandato descricaoStatus, 
+ vg.num_gabinete nomeGab,num_anexo predio, 
+ vg.num_gabinete sala, vg.num_andar andar, 
+redeSocial=(
+    stuff(
+        (select ',' + ee.tex_endereco_eletronico
+        from Endereco_Eletronico_Pessoa ee
+        inner join Tipo_Endereco_Eletronico te on te.ide_tipo_endereco_eletronico = ee.ide_tipo_endereco_eletronico
+        where ee.ide_pessoa = p.ide_pessoa
+        and te.ind_rede_social = 'S'
+        and ee.ind_ativo = 'S'
+        and ee.ind_sigilo = 'N'
+        for xml path('')),
+        1, 1, ''
+    )
+), vg.num_telefone telefone  
+ ,(SELECT CASE WHEN pl.cod_situacao_mandato_atual = 'E' THEN (dbo.Fnemailparlamentar (pl.ide_pessoa_legislatura) + '@camara.leg.br') ELSE null END AS email FROM Pessoa_legislatura pl2 WHERE pl2.num_legislatura = (SELECT MAX(num_legislatura) FROM Legislatura) AND pl2.ide_pessoa = p.ide_pessoa AND PL2.cod_situacao_mandato_atual='E') as email  FROM pessoa p   
+ inner join pessoa_legislatura pl on p.ide_pessoa = pl.ide_pessoa 
+ left join Situacao_Mandato_Pessoa_Legislatura smpl on smpl.cod_situacao_mandato_pessoa_legislatura  = pl.cod_situacao_mandato_atual 
+ left join Endereco_Eletronico_Pessoa eep on eep.ide_pessoa = p.ide_pessoa 
+ and eep.ide_Tipo_Endereco_Eletronico = 13 and eep.ind_sigilo = 'N' and eep.ind_ativo = 'S' 
+ and eep.ide_endereco_eletronico_pessoa = (select max(ide_endereco_eletronico_pessoa) from Endereco_Eletronico_Pessoa eep join pessoa pe on pe.ide_pessoa = eep.ide_pessoa and pe.ide_cadastro = p.ide_cadastro and eep.ide_tipo_endereco_eletronico = 13) 
+ left join Partido_Politico pp on pp.ide_partido_politico = pl.ide_partido_politico_atual 
+ left join viw_Localidade_Corporativo vlc on vlc.IDE_LOCALIDADE = p.ide_localidade_naturalidade 
+ left join Condicao_Pessoa_Legislatura cpl on cpl.cod_condicao_pessoa_legislatura  = pl.cod_condicao_atual 
+ left join Ocorrencia_Mandato om on om.ide_pessoa_legislatura = pl.ide_pessoa_legislatura and ide_tipo_ocorrencia_mandato = 15 
+ left join Ocorrencia_Mandato om2 on  om2.ide_pessoa_legislatura =  pl.ide_pessoa_legislatura 
+ and om2.ide_ocorrencia_mandato = (Select MAX(ide_ocorrencia_mandato) from ocorrencia_mandato om4 
+ where om4.ide_pessoa_legislatura = om2.ide_pessoa_legislatura 
+ and om4.dat_ocorrencia_mandato = (select MAX(dat_ocorrencia_mandato) 
+ from Ocorrencia_Mandato om3 where om3.ide_pessoa_legislatura = om2.ide_pessoa_legislatura)) 
+ left join VIW_grau_instrucao vgi on p.ide_cadastro = vgi.ide_cadastro 
+ left join viw_Gabinete vg ON p.IDE_CADASTRO = vg.ide_deputado_ocupante 
+ WHERE 0=0
+ and pl.num_legislatura = (select MAX(pl.num_legislatura) from pessoa_legislatura pl 
+ join legislatura l ON l.num_legislatura = pl.num_legislatura AND l.dat_inicio <= getDATE()
+ inner join pessoa pe on pe.ide_pessoa = pl.ide_pessoa and  pe.ide_cadastro = p.ide_cadastro where pl.nom_parlamentar is not null and pl.num_legislatura > 0 )]; A permissão EXECUTE foi negada no objeto 'fnEmailParlamentar', banco de dados 'SqlDesParlamentar', esquema 'dbo'.; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: A permissão EXECUTE foi negada no objeto 'fnEmailParlamentar', banco de dados 'SqlDesParlamentar', esquema 'dbo'.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:250) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1402) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:620) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.deputados.RepositorioDeDeputadosJDBC.buscaDeputadosInformacoesCompletas(RepositorioDeDeputadosJDBC.java:107) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.deputados.completo.ServicoDeDeputadosCompleto.execute(ServicoDeDeputadosCompleto.java:32) [classes/:na]
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) [classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.0.jar:na]
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: A permissão EXECUTE foi negada no objeto 'fnEmailParlamentar', banco de dados 'SqlDesParlamentar', esquema 'dbo'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:331) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:666) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:605) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 16 common frames omitted
+
+2020-01-14 07:24:30.853 DEBUG 12280 --- [quartzScheduler_Worker-6] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputadosCompleto, nomeBaseArquivo=deputadosCompleto, nome=deputadosCompleto, grupo=deputados, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:30.815 ERROR 12280 --- [quartzScheduler_Worker-2] b.l.c.d.j.f.RepositorioDeFrentesJDBC     : Um erro aconteceu 
+
+org.springframework.dao.PermissionDeniedDataAccessException: PreparedStatementCallback; SQL [SELECT 
+	DISTINCT
+	f.id_frente AS id
+	,f.data_Publicacao
+	,f.assunto AS titulo
+	,f.autor AS coordenador
+	,f.[número da legislatura] AS idLegislatura
+	,pl.sig_uf_eleito AS siglaUf
+	,pl.nom_parlamentar as nome
+	,p.ide_cadastro AS idMembro
+	,pp.sig_partido_politico AS siglaPartido
+	,pp.ide_partido_politico AS idPartido
+	,IIF(f.autor like pl.nom_parlamentar OR (f.autor NOT LIKE pl.nom_parlamentar AND  f.autor like pl.nom_parlamentar + '%' COLLATE Latin1_General_CI_AS), 'Coordenador', 'Membro') AS cargo
+from SqlDessgm.dbo.[Frente Parlamentar] f
+left join SqlDessgm.dbo.FrenteParlamentarConferência fc on f.ID_FRENTE = fc.ID_FRENTE
+left join SqlDessgm.dbo.Apoiamento a on a.[ID CONFERêNCIA] = fc.[ID CONFERêNCIA] AND a.[confere assinatura] = 'S'
+left join pessoa_legislatura pl on pl.ide_mandato_deputado_SGM = a.[ID DEPUTADO]
+left join pessoa p on p.ide_pessoa = pl.ide_pessoa
+LEFT JOIN Partido_Politico pp ON pp.ide_partido_politico = pl.ide_partido_politico_atual
+WHERE 0=0
+	AND f.data_Publicacao IS NOT NULL
+ORDER BY f.data_Publicacao DESC, id , cargo, nome]; A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:250) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1402) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:620) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.frentes.RepositorioDeFrentesJDBC.buscaMembros(RepositorioDeFrentesJDBC.java:132) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.frentes.membros.ServicoDeMembrosDasFrentes.execute(ServicoDeMembrosDasFrentes.java:33) [classes/:na]
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) [classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.0.jar:na]
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: A permissão SELECT foi negada no objeto 'Apoiamento', banco de dados 'SqlDesSGM', esquema 'dbo'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:331) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:666) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:605) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 16 common frames omitted
+
+2020-01-14 07:24:30.913 DEBUG 12280 --- [quartzScheduler_Worker-2] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentesDeputados, nomeBaseArquivo=frentesDeputados, nome=membros, grupo=frentes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:32.379 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:32.379 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:32.379 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:32.379 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 12 0 * * ?, diretorio=/tmp/arquivos/legislaturas, nomeBaseArquivo=legislaturas, nome=legislaturas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:32.379 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 12 0 * * ?, diretorio=/tmp/arquivos/legislaturas, nomeBaseArquivo=legislaturas, nome=legislaturas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:32.379  INFO 12280 --- [quartzScheduler_Worker-3] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 12 0 * * ?, diretorio=/tmp/arquivos/legislaturas, nomeBaseArquivo=legislaturas, nome=legislaturas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:32.384  INFO 12280 --- [quartzScheduler_Worker-3] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/proposicoesTemas, nomeBaseArquivo=proposicoesTemas, nome=proposicoesTemas, grupo=proposicoes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.223 DEBUG 12280 --- [quartzScheduler_Worker-2] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:33.223 ERROR 12280 --- [quartzScheduler_Worker-2] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:33.223 DEBUG 12280 --- [quartzScheduler_Worker-2] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:33.223 DEBUG 12280 --- [quartzScheduler_Worker-2] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentesDeputados, nomeBaseArquivo=frentesDeputados, nome=membros, grupo=frentes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:33.224 DEBUG 12280 --- [quartzScheduler_Worker-2] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentesDeputados, nomeBaseArquivo=frentesDeputados, nome=membros, grupo=frentes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:33.224  INFO 12280 --- [quartzScheduler_Worker-2] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentesDeputados, nomeBaseArquivo=frentesDeputados, nome=membros, grupo=frentes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.227  INFO 12280 --- [quartzScheduler_Worker-2] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 28 0 * * ?, diretorio=/tmp/arquivos/lancamentosFinanceiros, nomeBaseArquivo=lancamentosFinanceiros, nome=lancamentos, grupo=administrativos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.229 ERROR 12280 --- [quartzScheduler_Worker-2] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - dataSource or dataSourceClassName or jdbcUrl is required.
+2020-01-14 07:24:33.230 ERROR 12280 --- [quartzScheduler_Worker-2] org.quartz.core.JobRunShell              : Job administrativos.lancamentos threw an unhandled Exception: 
+
+java.lang.reflect.UndeclaredThrowableException: null
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.3.0.jar:na]
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) ~[classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 3 common frames omitted
+Caused by: java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at com.zaxxer.hikari.HikariConfig.validate(HikariConfig.java:1063) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:109) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.administrativo.lancamentos.RepositorioDeLancamentosJDBC.buscaAnosDasDespesas(RepositorioDeLancamentosJDBC.java:34) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.administrativo.lancamentos.ServicoDeLancamentos.execute(ServicoDeLancamentos.java:32) ~[classes/:na]
+	... 9 common frames omitted
+
+2020-01-14 07:24:33.234 ERROR 12280 --- [quartzScheduler_Worker-2] org.quartz.core.ErrorLogger              : Job (administrativos.lancamentos threw an exception.
+
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) [quartz-2.3.0.jar:na]
+Caused by: java.lang.reflect.UndeclaredThrowableException: null
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	... 1 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) ~[classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 3 common frames omitted
+Caused by: java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at com.zaxxer.hikari.HikariConfig.validate(HikariConfig.java:1063) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:109) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.administrativo.lancamentos.RepositorioDeLancamentosJDBC.buscaAnosDasDespesas(RepositorioDeLancamentosJDBC.java:34) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.administrativo.lancamentos.ServicoDeLancamentos.execute(ServicoDeLancamentos.java:32) ~[classes/:na]
+	... 9 common frames omitted
+
+2020-01-14 07:24:33.237  INFO 12280 --- [quartzScheduler_Worker-2] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 28 0 * * ?, diretorio=/tmp/arquivos/despesas, nomeBaseArquivo=Ano, nome=despesas, grupo=deputados, ativo=null, extensoesZipaveis=[xml, json, csv], retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.247  INFO 12280 --- [quartzScheduler_Worker-2] com.zaxxer.hikari.HikariDataSource       : cotas-hikari-pool - Starting...
+2020-01-14 07:24:33.293  INFO 12280 --- [quartzScheduler_Worker-2] com.zaxxer.hikari.HikariDataSource       : cotas-hikari-pool - Start completed.
+2020-01-14 07:24:33.445 DEBUG 12280 --- [quartzScheduler_Worker-6] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:33.445 ERROR 12280 --- [quartzScheduler_Worker-6] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:33.445 DEBUG 12280 --- [quartzScheduler_Worker-6] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:33.445 DEBUG 12280 --- [quartzScheduler_Worker-6] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputadosCompleto, nomeBaseArquivo=deputadosCompleto, nome=deputadosCompleto, grupo=deputados, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:33.445 DEBUG 12280 --- [quartzScheduler_Worker-6] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputadosCompleto, nomeBaseArquivo=deputadosCompleto, nome=deputadosCompleto, grupo=deputados, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:33.445  INFO 12280 --- [quartzScheduler_Worker-6] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputadosCompleto, nomeBaseArquivo=deputadosCompleto, nome=deputadosCompleto, grupo=deputados, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.463  INFO 12280 --- [quartzScheduler_Worker-6] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 40 0 * * ?, diretorio=/tmp/arquivos/despesasCompressed, nomeBaseArquivo=null, nome=despesasCompressed, grupo=deputados, ativo=null, extensoesZipaveis=[xml], retiraExtensaoArquivoOrginal=true) 
+2020-01-14 07:24:33.463  INFO 12280 --- [quartzScheduler_Worker-6] c.d.j.d.d.ServicoDeDespesasDepCompressed : Iniciando job de arquivos de despesa AnoAtual
+2020-01-14 07:24:33.717 DEBUG 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:33.717 ERROR 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:33.717 DEBUG 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:33.717 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/partidos, nomeBaseArquivo=partidos, nome=partidos, grupo=null, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:33.717 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/partidos, nomeBaseArquivo=partidos, nome=partidos, grupo=null, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:33.717  INFO 12280 --- [quartzScheduler_Worker-4] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/partidos, nomeBaseArquivo=partidos, nome=partidos, grupo=null, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:33.723  INFO 12280 --- [quartzScheduler_Worker-4] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 23 0 * * ?, diretorio=/tmp/arquivos/legislaturasMesas, nomeBaseArquivo=legislaturasMesas, nome=mesas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:34.238 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:34.238 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:34.238 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:34.238 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentes, nomeBaseArquivo=frentes, nome=frentes, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:34.238 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentes, nomeBaseArquivo=frentes, nome=frentes, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:34.238  INFO 12280 --- [quartzScheduler_Worker-1] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/frentes, nomeBaseArquivo=frentes, nome=frentes, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:34.240  INFO 12280 --- [quartzScheduler_Worker-1] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 21 0 * * ?, diretorio=/tmp/arquivos/orgaosDeputados, nomeBaseArquivo=orgaosDeputados, nome=deputados, grupo=orgaos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:35.109  INFO 12280 --- [quartzScheduler_Worker-6] c.d.j.d.d.ServicoDeDespesasDepCompressed : Finalizado job de arquivos de despesa AnoAtual
+2020-01-14 07:24:35.109  INFO 12280 --- [quartzScheduler_Worker-6] c.d.j.d.d.ServicoDeDespesasDepCompressed : Iniciando job de arquivos de despesa AnoAnterior
+2020-01-14 07:24:35.627 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 15 0 * * ?, diretorio=/tmp/arquivos/eventosOrgaos, nomeBaseArquivo=eventosOrgaos, nome=eventosOrgaos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:35.694 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.694 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.694 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:35.771 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.771 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.771 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:35.824 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.824 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.824 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:35.870 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.870 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.870 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:35.919 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.919 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.919 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:35.988 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:35.988 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:35.988 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.061 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.061 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.061 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.207 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.208 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.208 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.274 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.274 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.274 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.335 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.335 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.336 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.428 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.428 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.428 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.478 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.478 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.478 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.537 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.537 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.537 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.617 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.618 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.618 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.667 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.667 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.667 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.717 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.717 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.717 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.765 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.766 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.766 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.828 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.829 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.829 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.882 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.883 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.883 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:36.952 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:36.952 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:36.952 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.023 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.023 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.024 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.098 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.098 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.098 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.154 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.154 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.154 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.251 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.251 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.251 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.302 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.302 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.302 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.545 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.545 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.545 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.599 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.599 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.599 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.640 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.640 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.640 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.685 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.686 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.686 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.765 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.765 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.765 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.766 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 15 0 * * ?, diretorio=/tmp/arquivos/eventosOrgaos, nomeBaseArquivo=eventosOrgaos, nome=eventosOrgaos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:37.766 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 15 0 * * ?, diretorio=/tmp/arquivos/eventosOrgaos, nomeBaseArquivo=eventosOrgaos, nome=eventosOrgaos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:37.766  INFO 12280 --- [quartzScheduler_Worker-8] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 15 0 * * ?, diretorio=/tmp/arquivos/eventosOrgaos, nomeBaseArquivo=eventosOrgaos, nome=eventosOrgaos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:37.767  INFO 12280 --- [quartzScheduler_Worker-8] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/orgaos, nomeBaseArquivo=orgaos, nome=orgaos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:37.837 ERROR 12280 --- [quartzScheduler_Worker-8] b.l.c.d.j.o.RepositorioDeOrgaosJDBC      : Um erro aconteceu 
+
+org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT
+	o.codOrgao AS id
+	,o.txtSigla AS sigla
+	,o.txtApelido AS apelido
+	,o.txtNome AS nome
+	,o.codTipoOrgao AS idTipoOrgao
+	,tpo.txtDescricao AS tipoOrgao
+	,o.datCriacao AS dataInicio
+	,o.datInstalacao AS dataInstalacao
+	,o.datExtincao AS dataFim
+	,ts.ide_tipo_situacao_comissao AS idSituacao
+	,ts.nom_tipo_situacao_comissao AS descricaoSituacao
+	,o.txtLocalReuniao AS sala
+FROM Orgao o
+JOIN TipoOrgao tpo ON tpo.codTipoOrgao = o.codTipoOrgao
+LEFT JOIN SqlDesParlamentar.dbo.Situacao_Comissao  s ON s.ide_orgao_legislativo = o.codOrgao
+			AND s.ide_situacao_comissao = (SELECT TOP 1 sc.ide_situacao_comissao FROM SqlDesParlamentar.dbo.Situacao_Comissao sc
+					WHERE sc.ide_orgao_legislativo = o.codOrgao ORDER BY sc.dat_situacao DESC)
+LEFT JOIN SqlDesParlamentar.dbo.Tipo_Orgao_legislativo_Tipo_Situacao_Comissao tolt ON
+					tolt.ide_tipo_orgao_legislativo_tipo_situacao_comissao = s.ide_tipo_orgao_legislativo_tipo_situacao_comissao
+LEFT JOIN SqlDesParlamentar.dbo.Tipo_Situacao_Comissao ts ON ts.ide_tipo_situacao_comissao = tolt.ide_tipo_situacao_Comissao
+WHERE 0=0 
+AND (O.datInstalacao IS NOT NULL or O.datCriacao IS NOT NULL or O.datConstituicao IS NOT NULL or O.codOrgao in (180, 4) or O.codTipoOrgao in (12000)) 
+AND O.codTipoOrgao IN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,20,25,21,12000,81002) 
+ORDER BY o.codOrgao]; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: Nome de objeto 'SqlDesParlamentar.dbo.Situacao_Comissao' inválido.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1402) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:620) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:682) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:711) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:193) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:205) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at br.leg.camara.dadosabertosjob.jobs.orgaos.RepositorioDeOrgaosJDBC.buscarTodosOsOrgaos(RepositorioDeOrgaosJDBC.java:77) ~[classes/:na]
+	at br.leg.camara.dadosabertosjob.jobs.orgaos.ServicoDeOrgaos.execute(ServicoDeOrgaos.java:31) [classes/:na]
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at br.leg.camara.dadosabertosjob.config.AutowiringSpringBeanJobFactory.lambda$0(AutowiringSpringBeanJobFactory.java:68) [classes/:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy77.execute(Unknown Source) ~[na:na]
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202) ~[quartz-2.3.0.jar:na]
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573) ~[quartz-2.3.0.jar:na]
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Nome de objeto 'SqlDesParlamentar.dbo.Situacao_Comissao' inválido.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1535) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:467) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:409) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:219) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:199) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:331) ~[mssql-jdbc-6.2.2.jre8.jar:na]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:666) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:605) ~[spring-jdbc-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 16 common frames omitted
+
+2020-01-14 07:24:37.838 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/orgaos, nomeBaseArquivo=orgaos, nome=orgaos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:37.910 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:37.911 ERROR 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:37.911 DEBUG 12280 --- [quartzScheduler_Worker-8] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:37.911 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/orgaos, nomeBaseArquivo=orgaos, nome=orgaos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:37.911 DEBUG 12280 --- [quartzScheduler_Worker-8] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/orgaos, nomeBaseArquivo=orgaos, nome=orgaos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:37.911  INFO 12280 --- [quartzScheduler_Worker-8] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/orgaos, nomeBaseArquivo=orgaos, nome=orgaos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:37.913  INFO 12280 --- [quartzScheduler_Worker-8] b.l.c.d.c.AutowiringSpringBeanJobFactory : Iniciando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 25 0 * * ?, diretorio=/tmp/arquivos/proposicoesTramitacoes, nomeBaseArquivo=proposicoesTramitacoes, nome=tramitacoes, grupo=proposicoes, ativo=true, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:39.183 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 23 0 * * ?, diretorio=/tmp/arquivos/legislaturasMesas, nomeBaseArquivo=legislaturasMesas, nome=mesas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:39.240 DEBUG 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:39.241 ERROR 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:39.241 DEBUG 12280 --- [quartzScheduler_Worker-4] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:39.241 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 23 0 * * ?, diretorio=/tmp/arquivos/legislaturasMesas, nomeBaseArquivo=legislaturasMesas, nome=mesas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:39.241 DEBUG 12280 --- [quartzScheduler_Worker-4] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 23 0 * * ?, diretorio=/tmp/arquivos/legislaturasMesas, nomeBaseArquivo=legislaturasMesas, nome=mesas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:39.241  INFO 12280 --- [quartzScheduler_Worker-4] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 23 0 * * ?, diretorio=/tmp/arquivos/legislaturasMesas, nomeBaseArquivo=legislaturasMesas, nome=mesas, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:39.856 DEBUG 12280 --- [quartzScheduler_Worker-10] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/eventosRequerimentos, nomeBaseArquivo=eventosRequerimentos, nome=requerimentos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:39.897 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:39.897 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:39.897 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:39.941 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:39.941 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:39.941 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:39.989 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:39.989 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:39.989 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.031 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.031 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.031 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.079 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.079 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.079 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.122 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.122 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.122 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.174 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.174 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.174 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.214 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.214 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.214 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.253 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.253 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.253 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.334 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.334 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.334 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.389 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.390 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.390 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.441 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.441 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.441 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.485 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.485 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.485 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.536 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.536 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.536 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.578 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.578 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.578 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.631 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.631 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.631 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.677 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.678 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.678 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.720 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.721 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.722 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.764 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.764 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.764 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.808 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:40.809 ERROR 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:40.809 DEBUG 12280 --- [quartzScheduler_Worker-10] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:40.809 DEBUG 12280 --- [quartzScheduler_Worker-10] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/eventosRequerimentos, nomeBaseArquivo=eventosRequerimentos, nome=requerimentos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:40.809 DEBUG 12280 --- [quartzScheduler_Worker-10] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/eventosRequerimentos, nomeBaseArquivo=eventosRequerimentos, nome=requerimentos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:40.810  INFO 12280 --- [quartzScheduler_Worker-10] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 19 0 * * ?, diretorio=/tmp/arquivos/eventosRequerimentos, nomeBaseArquivo=eventosRequerimentos, nome=requerimentos, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:43.391 DEBUG 12280 --- [quartzScheduler_Worker-7] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 13 0 * * ?, diretorio=/tmp/arquivos/eventos, nomeBaseArquivo=eventos, nome=eventos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:43.472 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:43.472 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:43.472 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:43.543 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:43.543 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:43.547 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:43.632 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:43.632 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:43.632 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:43.728 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:43.728 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:43.728 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:43.873 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:43.873 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:43.873 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:44.197 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:44.197 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:44.197 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:44.784 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:44.785 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:44.785 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:45.538 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:45.538 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:45.538 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:45.839 DEBUG 12280 --- [quartzScheduler_Worker-5] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputados, nomeBaseArquivo=deputados, nome=deputados, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:45.843 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:45.844 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:45.844 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:45.903 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:45.903 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:45.903 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:45.955 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:45.955 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:45.955 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.010 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.010 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.010 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.086 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.086 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.086 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.169 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.169 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.169 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.279 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.279 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.279 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.405 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.405 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.405 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.467  WARN 12280 --- [sitaq-hikari-pool housekeeper] com.zaxxer.hikari.pool.HikariPool        : sitaq-hikari-pool - Thread starvation or clock leap detected (housekeeper delta=13h54m51s903ms38µs690ns).
+2020-01-14 07:24:46.496 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.496 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.497 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.583 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.583 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.583 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.649 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.649 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.649 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.703 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.703 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.703 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.761 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.761 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.761 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.821 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.821 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.821 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.890 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.891 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.891 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:46.958 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:46.959 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:46.959 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.027 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.027 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.027 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.135 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.135 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.136 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.196 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.196 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.196 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.260 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.260 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.260 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.353 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.353 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.354 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.438 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.438 ERROR 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.438 DEBUG 12280 --- [quartzScheduler_Worker-7] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.438 DEBUG 12280 --- [quartzScheduler_Worker-7] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 13 0 * * ?, diretorio=/tmp/arquivos/eventos, nomeBaseArquivo=eventos, nome=eventos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:47.438 DEBUG 12280 --- [quartzScheduler_Worker-7] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 13 0 * * ?, diretorio=/tmp/arquivos/eventos, nomeBaseArquivo=eventos, nome=eventos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:47.438  INFO 12280 --- [quartzScheduler_Worker-7] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 13 0 * * ?, diretorio=/tmp/arquivos/eventos, nomeBaseArquivo=eventos, nome=eventos, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:24:47.518 DEBUG 12280 --- [quartzScheduler_Worker-5] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:24:47.519 ERROR 12280 --- [quartzScheduler_Worker-5] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:24:47.519 DEBUG 12280 --- [quartzScheduler_Worker-5] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:24:47.519 DEBUG 12280 --- [quartzScheduler_Worker-5] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputados, nomeBaseArquivo=deputados, nome=deputados, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:24:47.519 DEBUG 12280 --- [quartzScheduler_Worker-5] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputados, nomeBaseArquivo=deputados, nome=deputados, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:24:47.519  INFO 12280 --- [quartzScheduler_Worker-5] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/deputados, nomeBaseArquivo=deputados, nome=deputados, grupo=null, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:25:20.983 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 21 0 * * ?, diretorio=/tmp/arquivos/orgaosDeputados, nomeBaseArquivo=orgaosDeputados, nome=deputados, grupo=orgaos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:25:21.050 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.050 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.050 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.114 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.114 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.114 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.212 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.212 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.212 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.299 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.299 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.299 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.397 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.397 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.397 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.573 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:21.573 ERROR 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:21.573 DEBUG 12280 --- [quartzScheduler_Worker-1] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:21.573 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 21 0 * * ?, diretorio=/tmp/arquivos/orgaosDeputados, nomeBaseArquivo=orgaosDeputados, nome=deputados, grupo=orgaos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:25:21.573 DEBUG 12280 --- [quartzScheduler_Worker-1] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 21 0 * * ?, diretorio=/tmp/arquivos/orgaosDeputados, nomeBaseArquivo=orgaosDeputados, nome=deputados, grupo=orgaos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:25:21.573  INFO 12280 --- [quartzScheduler_Worker-1] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 21 0 * * ?, diretorio=/tmp/arquivos/orgaosDeputados, nomeBaseArquivo=orgaosDeputados, nome=deputados, grupo=orgaos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:25:28.210  INFO 12280 --- [quartzScheduler_Worker-6] c.d.j.d.d.ServicoDeDespesasDepCompressed : Finalizado job de arquivos de despesa AnoAnterior
+2020-01-14 07:25:28.215  INFO 12280 --- [quartzScheduler_Worker-6] c.d.j.d.d.ServicoDeDespesasDepCompressed : Iniciando job de arquivos de despesa AnosAnteriores
+2020-01-14 07:25:28.273 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/proposicoesTemas, nomeBaseArquivo=proposicoesTemas, nome=proposicoesTemas, grupo=proposicoes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:25:28.414 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:28.415 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:28.415 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:28.501 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:28.501 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:28.501 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:28.906 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:28.906 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:28.906 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.148 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.148 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.148 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.220 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.221 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.221 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.365 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.365 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.365 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.474 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.474 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.474 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.570 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.570 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.570 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.641 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.641 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.641 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.731 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.731 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.731 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.810 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.810 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.811 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:29.900 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:29.900 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:29.900 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:30.267 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:30.267 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:30.267 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:30.574 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:30.575 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:30.575 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:30.974 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:30.974 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:30.974 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.039 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.039 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.039 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.102 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.102 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.102 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.396 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.396 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.396 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.493 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.493 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.493 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.588 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.588 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.588 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.804 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.804 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.804 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:31.960 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:31.960 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:31.960 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.019 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.021 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.021 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.134 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.134 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.134 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.230 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.231 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.231 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.306 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.306 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.306 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.425 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.426 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.426 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.605 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.605 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.605 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:32.830 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:32.830 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:32.830 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:33.212 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:33.212 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:33.212 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:33.261 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:33.261 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:33.261 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:33.916 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:33.916 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:33.916 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:34.111 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:34.111 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:34.112 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:34.686 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:34.686 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:34.686 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:35.193 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:35.194 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:35.194 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:35.597 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:35.597 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:35.597 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:35.916 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:35.916 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:35.916 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.152 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.152 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.153 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.315 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.316 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.316 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.434 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.434 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.434 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.498 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.499 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.499 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.747 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.747 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.747 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.820 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.820 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.820 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:36.931 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:36.931 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:36.931 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.126 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.126 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.127 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.351 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.351 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.351 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.499 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.499 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.500 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.657 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.657 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.657 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.730 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.731 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.731 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.892 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.892 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.892 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:37.960 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:37.960 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:37.960 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.034 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.035 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.035 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.083 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.083 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.083 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.178 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.178 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.178 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.229 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.231 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.231 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.275 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.275 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.275 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.322 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.323 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.323 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.366 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.366 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.366 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.421 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.421 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.421 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.470 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.471 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.471 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.541 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.541 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.541 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.589 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.589 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.589 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.641 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.641 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.641 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.698 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.699 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.699 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.744 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.744 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.744 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.802 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.802 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.802 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.853 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.853 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.854 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.903 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.903 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.903 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:38.954 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:38.955 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:38.955 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:39.004 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:25:39.005 ERROR 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:25:39.005 DEBUG 12280 --- [quartzScheduler_Worker-3] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:25:39.005 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/proposicoesTemas, nomeBaseArquivo=proposicoesTemas, nome=proposicoesTemas, grupo=proposicoes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:25:39.005 DEBUG 12280 --- [quartzScheduler_Worker-3] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/proposicoesTemas, nomeBaseArquivo=proposicoesTemas, nome=proposicoesTemas, grupo=proposicoes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:25:39.005  INFO 12280 --- [quartzScheduler_Worker-3] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 3 0 * * ?, diretorio=/tmp/arquivos/proposicoesTemas, nomeBaseArquivo=proposicoesTemas, nome=proposicoesTemas, grupo=proposicoes, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
+2020-01-14 07:28:09.282 DEBUG 12280 --- [quartzScheduler_Worker-9] b.l.c.d.core.handlers.OdsHandler         : Iniciando conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 17 0 * * ?, diretorio=/tmp/arquivos/eventosPresencaDeputados, nomeBaseArquivo=eventosPresencaDeputados, nome=presencaDeputados, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:28:09.909 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:09.909 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:09.909 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:10.470 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:10.470 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:10.470 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:10.988 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:10.988 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:10.988 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:12.321 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:12.322 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:12.322 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:13.206 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:13.207 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:13.207 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:14.163 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:14.163 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:14.163 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:14.830 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:14.830 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:14.830 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:15.371 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:15.371 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:15.372 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:16.024 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:16.024 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:16.024 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:16.809 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:16.809 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:16.809 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:17.446 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:17.447 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:17.447 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:18.108 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:18.108 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:18.108 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:18.948 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:18.949 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:18.949 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:19.742 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:19.742 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:19.742 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:20.762 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:20.763 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:20.763 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:21.762 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:21.763 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:21.763 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:22.549 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:22.549 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:22.549 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:23.405 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:23.405 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:23.405 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:24.384 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:24.384 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:24.384 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:25.440 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:25.440 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:25.440 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:26.136 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:26.136 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:26.136 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:26.932 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:26.932 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:26.932 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:27.847 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:27.847 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:27.848 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:29.007 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:29.007 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:29.007 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:29.772 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:29.773 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:29.773 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:30.570 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : INICIO DA CONVERSÃO
+2020-01-14 07:28:30.570 ERROR 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : O sistema n�o pode encontrar o caminho especificado.
+
+2020-01-14 07:28:30.570 DEBUG 12280 --- [quartzScheduler_Worker-9] .l.c.d.c.b.l.LibreOfficeWindowsPlataform : FIM DA CONVERSÃO
+2020-01-14 07:28:30.570 DEBUG 12280 --- [quartzScheduler_Worker-9] b.l.c.d.core.handlers.OdsHandler         : Terminado conversão dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 17 0 * * ?, diretorio=/tmp/arquivos/eventosPresencaDeputados, nomeBaseArquivo=eventosPresencaDeputados, nome=presencaDeputados, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) para ods
+2020-01-14 07:28:30.570 DEBUG 12280 --- [quartzScheduler_Worker-9] b.l.c.d.core.handlers.ZipHandler         : Terminado zip dos arquivos AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 17 0 * * ?, diretorio=/tmp/arquivos/eventosPresencaDeputados, nomeBaseArquivo=eventosPresencaDeputados, nome=presencaDeputados, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false)
+2020-01-14 07:28:30.570  INFO 12280 --- [quartzScheduler_Worker-9] b.l.c.d.c.AutowiringSpringBeanJobFactory : Terminando job AmbienteArquivoConfig.BaseFileConfig(cronExpression=0 17 0 * * ?, diretorio=/tmp/arquivos/eventosPresencaDeputados, nomeBaseArquivo=eventosPresencaDeputados, nome=presencaDeputados, grupo=eventos, ativo=null, extensoesZipaveis=null, retiraExtensaoArquivoOrginal=false) 
