@@ -1,0 +1,19 @@
+package com.kazale.api.security.services.impl;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.kazale.api.security.entities.Usuario;
+import com.kazale.api.security.repositories.UsuarioRepository;
+import com.kazale.api.security.services.UsuarioService;
+
+public class UsuarioServiceImpl implements UsuarioService {
+	
+	@Autowired
+	private UsuarioRepository usuarioRepository;
+	
+	public Optional<Usuario> buscarPorEmail(String email){
+		return Optional.ofNullable(this.usuarioRepository.findByEmail(email));
+	}
+}
